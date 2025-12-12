@@ -1,0 +1,87 @@
+name: district_dev
+description: A new Flutter project
+publish_to: 'none' 
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  #firebase_core: ^2.24.3
+  
+  # 🔥 FIREBASE AUTHENTICATION
+  #firebase_auth: ^4.16.2
+  
+  # 🔥 CLOUD FIRESTORE
+  #cloud_firestore: ^4.16.0
+  
+  # 🔥 FIREBASE STORAGE (for files/images)
+  #firebase_storage: ^11.3.3
+  
+  # 🔥 GOOGLE SIGN-IN
+  google_sign_in: ^6.1.5
+
+  crypto: ^3.0.3
+
+  # Database
+  sqflite: ^2.3.0
+  sqflite_common: ^2.5.0
+  sqflite_common_ffi: ^2.3.3 
+  
+  # File Operations
+  path: ^1.8.0
+  path_provider: ^2.1.2
+  file_picker: ^8.0.5
+  
+  csv: ^5.0.3  
+  printing: ^5.11.2 
+  pdf: ^3.10.6 
+  # UI & Design
+  google_fonts: ^6.1.0
+  fl_chart: ^0.69.0
+  
+  # State Management
+  provider: ^6.1.1
+  
+  # Media
+  image_picker: ^1.0.4
+  
+  # Network & APIs
+  http: ^1.2.2
+  dio: ^5.0.0
+  
+  # URL & Links
+  url_launcher: ^6.2.2
+  
+  # Permissions
+  permission_handler: ^11.0.1
+  
+  # Localization - UPDATED to resolve conflict
+  intl: ^0.19.0
+  
+  
+  spreadsheet_decoder: ^2.0.0  
+  syncfusion_flutter_xlsio: ^29.2.11 
+  excel: ^3.0.0 
+  # Logging
+  logger: ^1.0.0
+  
+  # Additional utilities
+  encrypt: ^5.0.0
+  connectivity_plus: ^4.0.0
+  workmanager: ^0.5.0
+  shared_preferences: ^2.2.0
+  flutter_local_notifications: ^15.0.0
+  cloud_firestore: ^6.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  build_runner: ^2.4.7
+
+flutter:
+  uses-material-design: true
